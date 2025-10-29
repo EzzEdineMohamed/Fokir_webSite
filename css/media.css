@@ -1,0 +1,247 @@
+/* media of header section */
+@media screen and (min-width: 768px) {
+  .header .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .header .nav-bar .navlogo {
+    float: left;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 25px;
+  }
+
+  .header .nav-bar .navlinks {
+    float: right;
+    padding: 7px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  .header .nav-bar {
+    background-color: transparent;
+  }
+
+  .header .nav-bar .navlinks li {
+    display: inline-block;
+  }
+
+  .header .content {
+    width: fit-content;
+    position: absolute;
+    margin-top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+/* media of header section */
+
+/* media of about section */
+@media screen and (width: 1024px) {
+  .About .container {
+    width: 100%;
+    margin: auto;
+  }
+
+  .About .content {
+    padding-left: 25px;
+  }
+
+  .About .image {
+    width: 50%;
+    width: fit-content;
+    margin-left: 110px;
+    border: 10px solid #555555;
+    border-radius: 5px;
+    position: relative;
+    overflow: visible;
+    float: left;
+  }
+
+  .About .image img {
+    border-radius: inherit;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: block;
+  }
+
+  .About .content {
+    width: 50%;
+    float: right;
+  }
+
+  .About .data .float-1 {
+    float: left;
+  }
+
+  .About .data .float-2 {
+    float: left;
+  }
+
+  .About {
+    margin-block: 70px;
+    position: relative;
+  }
+
+  .About .data {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1030px) {
+  .About .container {
+    width: 80%;
+    margin: auto;
+  }
+
+  .About .image {
+    width: 50%;
+    width: fit-content;
+    margin-left: 110px;
+    border: 10px solid #555555;
+    border-radius: 5px;
+    position: relative;
+    overflow: visible;
+    float: left;
+  }
+
+  .About .image img {
+    border-radius: inherit;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    display: block;
+  }
+
+  .About .content {
+    width: 50%;
+    float: right;
+  }
+
+  .About .data .float-1 {
+    float: left;
+  }
+
+  .About .data .float-2 {
+    float: left;
+  }
+
+  .About {
+    margin-block: 70px;
+    position: relative;
+  }
+
+  .About .data {
+    text-align: left;
+  }
+}
+
+/* media of about section */
+
+/* media of services section */
+@media screen and (min-width: 768px) {
+  .our-services .container {
+    width: 90%;
+    margin: auto;
+  }
+  .our-services .cards .card {
+    width: 50%;
+    text-align: center;
+    float: left;
+  }
+}
+
+@media screen and (width: 1024px) {
+  .our-services .cards .card .inner .content {
+    padding-inline : 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  .our-services .cards .card {
+    width: 25%;
+    text-align: center;
+    float: left;
+  }
+}
+
+
+
+/* media of services section */
+
+/* media of our-portfolio section */
+@media screen and (min-width: 768px) {
+  .our-portfolio .images .inner {
+    width: 50%;
+    float: left;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .our-portfolio .images .inner {
+    width: 33.333%;
+    float: left;
+    padding: 8px;
+    position: relative;
+    cursor: pointer;
+  }
+}
+/* media of our-portfolio section */
+@media screen and (min-width : 768px) {
+  .just-records .cardaya {
+  text-align: center;
+  float: left;
+  padding: 15px;
+  width: 25%;
+}
+}
+
+/* media of Just records section */
+
+/* media of blog section */
+@media screen and (min-width : 768px) {
+  .blog .cards .card {
+  width: 33.333%;
+  float: left;
+}
+}
+/* media of blog section */
+
+/* media of contact section */
+
+@media screen and (min-width:768px) {
+  .contact-us .container .inputs {
+  width: 60%;
+  margin: auto;
+}
+
+.contact-us .inputs .leftinput {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  margin: 0;
+}
+
+.contact-us .inputs .rightinput {
+  float: right;
+  width: 48%;
+  padding: 10px;
+  margin: 0;
+}
+}
+
+/* media of contact section */
